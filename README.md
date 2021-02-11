@@ -1,7 +1,7 @@
 # US-Airport-Map
 ## A map showing the airports of the United States, for course Geography 458 at the University of Washington.
 
-This project introduces various concepts in web mapping. It utilizes Javascript functions and several libraries to create an effective map showing the locations of airports within the United States.  
+This project introduces various concepts in web mapping. It utilizes Javascript functions and several libraries to create an effective map showing the locations of airports within the United States.
 
 Leaflet is used to create and customize the map.
 Leaflet control object is used for the legend.
@@ -14,3 +14,6 @@ Airport data is sourced from: https://catalog.data.gov/dataset/usgs-small-scale-
 State boundaries data is sourced from: Mike Bostock of D3: http://bost.ocks.org/mike, http://d3js.org/
 
 All code is based off example maps created by Prof Zhao and Tyler McCrea.
+
+Image of map:
+![Map](img/Map_Image.png)
