@@ -36,7 +36,7 @@ airports= L.geoJson.ajax("assets/airports.geojson", {
           else {id = 1}
           return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-plane marker-color-' + (id + 1).toString() })});
       },
-      attribution: 'airports.geojson contains all the airports in the United States, from https://catalog.data.gov/dataset/usgs-small-scale-dataset-airports-of-the-united-states-201207-shapefile'
+      attribution: 'Airport data from https://catalog.data.gov/dataset/usgs-small-scale-dataset-airports-of-the-united-states-201207-shapefile  State data from Mike Bostock of D3: http://bost.ocks.org/mike'
   }).addTo(mymap);
 
   // 7. Add colors for states
